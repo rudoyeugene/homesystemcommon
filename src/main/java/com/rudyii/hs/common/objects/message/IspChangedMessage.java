@@ -1,6 +1,5 @@
-package com.rudyii.hs.common.objects.logs;
+package com.rudyii.hs.common.objects.message;
 
-import com.rudyii.hs.common.type.ServerStateType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -12,7 +11,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-public class StartStopLog extends LogBase {
-    private ServerStateType serverState;
-    private int pid;
+public class IspChangedMessage extends MessageBase{
+    private String ispName;
+    private String externalIp;
 }

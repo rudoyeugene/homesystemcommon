@@ -1,10 +1,12 @@
 package com.rudyii.hs.common.objects;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 @Data
 @Builder
+@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
 public class PairingData {
     private String serverAlias;
     private String serverKey;

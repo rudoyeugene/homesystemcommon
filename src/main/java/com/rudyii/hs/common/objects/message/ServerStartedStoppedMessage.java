@@ -1,4 +1,4 @@
-package com.rudyii.hs.common.objects.logs;
+package com.rudyii.hs.common.objects.message;
 
 import com.rudyii.hs.common.type.ServerStateType;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-public class StartStopLog extends LogBase {
-    private ServerStateType serverState;
+public class ServerStartedStoppedMessage extends MessageBase{
     private int pid;
+    private ServerStateType serverState;
 }

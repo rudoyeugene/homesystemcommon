@@ -1,7 +1,7 @@
 package com.rudyii.hs.common.objects.info;
 
-import com.rudyii.hs.common.objects.type.SystemModeType;
-import com.rudyii.hs.common.objects.type.SystemStateType;
+import com.rudyii.hs.common.type.SystemModeType;
+import com.rudyii.hs.common.type.SystemStateType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.rudyii.hs.common.objects;
+package com.rudyii.hs.common.names;
 
 public class StaticData {
     public static final String BY_SYSTEM = "system";

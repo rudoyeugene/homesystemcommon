@@ -1,6 +1,6 @@
 package com.rudyii.hs.common.objects.logs;
 
-import com.rudyii.hs.common.objects.type.LogType;
+import com.rudyii.hs.common.type.LogType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

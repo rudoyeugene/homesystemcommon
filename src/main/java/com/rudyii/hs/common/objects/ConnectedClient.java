@@ -1,6 +1,6 @@
 package com.rudyii.hs.common.objects;
 
-import com.rudyii.hs.common.objects.type.NotificationType;
+import com.rudyii.hs.common.type.NotificationType;
 import lombok.*;
 
 @Data

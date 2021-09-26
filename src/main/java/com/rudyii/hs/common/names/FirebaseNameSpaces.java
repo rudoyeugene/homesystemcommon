@@ -1,4 +1,4 @@
-package com.rudyii.hs.common.objects;
+package com.rudyii.hs.common.names;
 
 public class FirebaseNameSpaces {
     public static final String USAGE_STATS_ROOT = "usageStats";

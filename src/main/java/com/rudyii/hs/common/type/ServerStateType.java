@@ -1,4 +1,4 @@
-package com.rudyii.hs.common.objects.type;
+package com.rudyii.hs.common.type;
 
 public enum ServerStateType {
     STARTED,
