@@ -9,11 +9,20 @@ import lombok.*;
 @AllArgsConstructor
 public class GlobalSettings {
     private boolean showMotionArea;
-    private boolean hourlyReportEnabled;
+    @Builder.Default
+    private boolean hourlyReportEnabled = true;
     private boolean hourlyReportForced;
-    private boolean monitoringEnabled;
+    @Builder.Default
+    private boolean monitoringEnabled = true;
     private boolean verboseOutput;
-    private boolean gatherStats;
-    private int historyDays;
-    private int delayedArmTimeout;
+    @Builder.Default
+    private boolean gatherStats = true;
+    @Builder.Default
+    private int historyDays = 14;
+    @Builder.Default
+    private int delayedArmTimeoutSec = 60;
+    @Builder.Default
+    private int masterCheckPeriodIfArmedSec = 60;
+    @Builder.Default
+    private int masterCheckPeriodIfDisarmedSec = 60;
 }
