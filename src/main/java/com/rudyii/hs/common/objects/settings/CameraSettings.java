@@ -1,6 +1,7 @@
 package com.rudyii.hs.common.objects.settings;
 
 import com.rudyii.hs.common.type.MonitoringModeType;
+import com.rudyii.hs.common.type.NotificationType;
 import lombok.*;
 
 @Data
@@ -11,6 +12,8 @@ import lombok.*;
 public class CameraSettings {
     @Builder.Default
     private MonitoringModeType monitoringMode = MonitoringModeType.AUTO;
+    @Builder.Default
+    private NotificationType notificationType = NotificationType.ALL;
     @Builder.Default
     private boolean healthCheckEnabled = true;
     private boolean showMotionObject;
